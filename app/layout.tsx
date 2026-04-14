@@ -16,6 +16,10 @@ export const metadata: Metadata = {
   title: "Modern Barber & Beauty | Experiencia Premium",
   description: "Barbería de lujo con sistema de reservas online, tarjeta de fidelidad digital y atención personalizada.",
   manifest: "/manifest.json",
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/pwa-192x192.png",
+  },
   themeColor: "#000000",
   appleWebApp: {
     capable: true,
