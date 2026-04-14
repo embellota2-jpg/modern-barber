@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -12,15 +12,21 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+export const viewport: Viewport = {
+  themeColor: "#000000",
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
+};
+
 export const metadata: Metadata = {
   title: "Modern Barber & Beauty | Experiencia Premium",
   description: "Barbería de lujo con sistema de reservas online, tarjeta de fidelidad digital y atención personalizada.",
-  manifest: "/manifest.json",
   icons: {
     icon: "/favicon.ico",
     apple: "/pwa-192x192.png",
   },
-  themeColor: "#000000",
   appleWebApp: {
     capable: true,
     statusBarStyle: "black-translucent",
