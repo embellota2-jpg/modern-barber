@@ -10,20 +10,21 @@
   },
   "dependencies": {
     "@supabase/supabase-js": "latest",
+    "@tailwindcss/postcss": "latest",
     "clsx": "latest",
     "framer-motion": "latest",
     "lucide-react": "latest",
     "next": "15.1.5",
     "react": "19.0.0",
     "react-dom": "19.0.0",
-    "tailwind-merge": "latest"
+    "tailwind-merge": "latest",
+    "tailwindcss": "latest"
   },
   "devDependencies": {
     "@types/node": "20",
     "@types/react": "19",
     "@types/react-dom": "19",
     "postcss": "8",
-    "tailwindcss": "4",
     "typescript": "5"
   }
 }
